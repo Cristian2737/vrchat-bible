@@ -6,7 +6,7 @@ and the creator's future projects. Every feature is free.
 
 [Download the release](https://github.com/Cristian2737/vrchat-bible/releases/latest) |
 [Report a bug or request a feature](https://github.com/Cristian2737/vrchat-bible/issues/new/choose) |
-[Creator on itch.io](https://cristian2737.itch.io/)
+[Free download / optional support on itch.io](https://cristian2737.itch.io/vrchat-bible)
 
 ![Reading and verse selection](docs/images/reading.png)
 
@@ -53,7 +53,7 @@ No exclusive rights are claimed over the Bible text.
 
 The official download stays free. The itch.io release can accept optional
 donations; donating is never required to use the Bible or request a feature.
-The creator profile is linked above; the project page will be linked once published.
+The project's itch.io page is linked above.
 
 Use Issues for bugs and feature requests. See [CONTRIBUTING.md](CONTRIBUTING.md)
 and [support information](Package/Documentation/Support.md).
