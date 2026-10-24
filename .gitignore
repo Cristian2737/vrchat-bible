@@ -1,0 +1,9 @@
+.release-stage.json
+Library/
+Temp/
+Logs/
+Obj/
+UserSettings/
+.vs/
+*.unitypackage
+*.zip

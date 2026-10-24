@@ -1,0 +1,21 @@
+{
+    "name": "VRChatBibleUI",
+    "rootNamespace": "VRChatBibleUI",
+    "references": [
+        "VRC.Udon",
+        "VRC.SDK3",
+        "UdonSharp.Runtime",
+        "VRC.SDKBase",
+        "Unity.TextMeshPro",
+        "Unity.ugui"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

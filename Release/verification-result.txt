@@ -1,0 +1,23 @@
+VRChat Bible 1.0.0 - Cristian2737
+Verified 2026-10-24T20:48:48.188654+00:00
+
+PASS: self-contained reusable prefab, generated in an isolated preview scene.
+PASS: .unitypackage and VPM zip audited against the explicit public allowlist: 55 package assets and 11 compiled Udon assets. Editable source, complete KJV data, font, materials, sound and license notices included. No original world scene/blueprint ID, private upload/upgrader tools, machine paths or personal saves included.
+PASS: SHA256SUMS.txt matches both final release archives.
+PASS: original world scene remains byte-for-byte identical to the pre-packaging version 20 backup; protected personal ClientSim save fingerprints unchanged. Packaging did not upload a world update.
+PASS: runtime/editor C# compilation and 34,262 managed checks completed during packaging; runtime behavior/save keys unchanged.
+PASS: real .unitypackage import into a separate SDK world project. Missing TMP settings initialized; existing settings subsequently preserved. Installer retained existing scene roots, blueprint ID and saved scene bytes; repeated installation preserved configuration; Undo/Redo and SDK network-ID validation passed.
+PASS: full imported-package ClientSim regression suite, including native render/click tests, sizing/reflow, browser, search, annotations, shared PlayerObject, hosting and simulated leave/rejoin restoration. See native-validation.txt.
+PASS: Windows/PC SDK world bundle built using the imported Unity package.
+PASS: VPM zip installed under Packages, with Assets-format Bible files removed. Same installer safety checks, byte-for-byte preservation of existing TMP settings, range reading, bundled font, saved note, PlayerObject sharing and dismiss/reopen checks passed.
+PASS: Android/Quest SDK world bundle built using the VPM package.
+
+Environment: Unity 2022.3.22f1, VRChat Worlds/Base SDK 3.7.5, TextMesh Pro 3.0.6. Newer SDK/editor versions have not been certified here.
+These are Editor/ClientSim/local build checks. Physical VR/controller hardware, actual multi-client transport and VRChat cloud persistence require in-world playtests.
+Local bundles use the SDK's scene validation, build-request callbacks and export pipeline. Public publishing/account permissions were not exercised by these local build checks.
+The SDK 3.7.5 ClientSim emitted storage-sharing/cancellation warnings during rapid automated edits; the final saved values and simulated rejoin checks passed. Startup assembly-lock/API updater delays were resolved in the disposable test environment.
+
+Test refinement: wait for actual deferred picker layout; for short lists, verify the real zero offset and every visible choice rather than ScrollRect's ambiguous normalized percentage. The reproduced Psalm 119-to-short-chapter case had six choices, a zero content offset and fully settled layout. No reader-runtime change was needed.
+
+Original contributions: CC0, credited to Cristian2737. Third-party exceptions and complete notices are supplied in LICENSE.md/Legal. Official release: free, optional donations only.
+Public publishing status: prepared locally; no itch.io project, GitHub repository or live VCC listing has been created. Publisher contains description, setup checklist, support instructions, issue templates and two actual UI renders for the listing. Replace listing template URLs before publishing.

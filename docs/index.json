@@ -1,0 +1,34 @@
+{
+  "name": "Cristian2737 - VRChat Bible",
+  "id": "com.cristian2737.bible-listing",
+  "author": "Cristian2737",
+  "url": "https://cristian2737.github.io/vrchat-bible/index.json",
+  "packages": {
+    "com.cristian2737.bible": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.cristian2737.bible",
+          "displayName": "VRChat Bible - KJV",
+          "version": "1.0.0",
+          "unity": "2022.3",
+          "description": "Free, offline 66-book KJV Bible for VRChat worlds, with personal study and hosted reading.",
+          "author": {
+            "name": "Cristian2737",
+            "url": "https://cristian2737.itch.io/",
+            "email": "77090180+Cristian2737@users.noreply.github.com"
+          },
+          "license": "CC0-1.0",
+          "vpmDependencies": {
+            "com.vrchat.worlds": ">=3.7.5"
+          },
+          "dependencies": {
+            "com.unity.textmeshpro": "3.0.6",
+            "com.unity.ugui": "1.0.0"
+          },
+          "url": "https://github.com/Cristian2737/vrchat-bible/releases/download/v1.0.0/com.cristian2737.bible-1.0.0.zip",
+          "zipSHA256": "dec35197347c6737477f2ac067ae98f783f03e31d2ea68763440d8c14f0664d8"
+        }
+      }
+    }
+  }
+}

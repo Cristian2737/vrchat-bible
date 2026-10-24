@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a reproducible problem with the Bible world asset.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Package, Unity and Worlds SDK versions
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [PC desktop, PC VR, Quest standalone, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce and expected/actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: console
+    attributes:
+      label: Relevant Console errors
+      description: Remove personal notes, account information and secrets.

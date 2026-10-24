@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest a reading, accessibility or study improvement. No donation required.
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What reading or study need would this address?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested behavior and how you would use it
+    validations:
+      required: true

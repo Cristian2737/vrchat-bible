@@ -1,0 +1,7 @@
+{
+    "name": "VRChatBibleUI.Editor",
+    "rootNamespace": "VRChatBibleUI.Editor",
+    "references": ["VRChatBibleUI", "UdonSharp.Runtime", "UdonSharp.Editor", "VRC.Udon", "VRC.Udon.Editor", "VRC.SDKBase", "VRC.SDK3", "VRC.SDKBase.Editor", "VRC.SDK3.Editor", "Unity.TextMeshPro", "Unity.ugui"],
+    "includePlatforms": ["Editor"],
+    "autoReferenced": true
+}

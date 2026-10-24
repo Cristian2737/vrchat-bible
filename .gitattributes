@@ -1,0 +1,3 @@
+* text=auto
+Package/** -text
+*.png binary

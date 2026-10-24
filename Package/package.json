@@ -1,0 +1,19 @@
+{
+  "name": "com.cristian2737.bible",
+  "displayName": "VRChat Bible - KJV",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Free, offline 66-book KJV Bible for VRChat worlds, with personal study and hosted reading.",
+  "author": {
+    "name": "Cristian2737",
+    "url": "https://cristian2737.itch.io/"
+  },
+  "license": "CC0-1.0",
+  "vpmDependencies": {
+    "com.vrchat.worlds": ">=3.7.5"
+  },
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6",
+    "com.unity.ugui": "1.0.0"
+  }
+}
